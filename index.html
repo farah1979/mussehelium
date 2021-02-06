@@ -3,78 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Musse-helium</title>
 </head>
 <body>
-    
 <header>
-  <div class="container-fluid cover">
-       <div class="row row-cols-3 no gutters menu-list d-flex flex-sm-row-reverse">
-            <div class="col-md-4 d-flex flex-sm-column-reverse" id="menu">
-                <div class="row">
-                    <div class="col">
-                <ul class="list-inline">
-                    <li class="col-md-4-col-sm-3 list-inline-item">
-                        <button type="button" class="btn btn-link  hvr-buzz-out">
-                        <a href="#"><span class="musse">Home</span></a>
-                        </button>
-                    </li>
-                    <li class="col-md-4-col-sm-3 list-inline-item">
-                        <button type="button" class="btn btn-link hvr-buzz-out">
-                        <a href="#"><span class="musse"> <em>About</em></span></a>
-                        </button>
- 
-                    </li>
-                    <li class="col-md-4-col-sm-3 list-inline-item">
-                        <button type="button" class="btn btn-link  hvr-buzz-out">
-                        <a href="#"><span class="musse"><em>Contact</em></span></a>
-                        </button>
-                    </li>
-                </ul>
-                </div>
-               </div>
-              </div> 
-                <div class="col-xs-2 col-md-4 top d-flex flex-sm-column-reverse">
-                 <a href="index.html">
-                    <img src="assets/images/logo.png" alt="Musse-helium-logo" id="logo">
-                 </a> 
-                </div>
+<div class="row no-gutters">
+<div class="col">
+    <nav class="navbar navbar-expand-lg d-block d-sm--block nav-bg-list">
+  <a class="navbar-brand hvr-buzz-out" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-                  <div class="col-md-4 d-none d-sm-block">
-
-                    <nav class="navbar navbar-light">
-               <form class="d-flex">
-                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                 <button class="btn btn-outline-light" type="submit"> <i>Search</i> </button>
-              </form>
-              </nav>
-
-                 </div>
-        </div>
+  <div class="collapse navbar-collapse d-block" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item bg-item">
+        <a class="nav-link hvr-buzz-out" href="#"><i class="fa fa-book" aria-hidden="true"></i> Books</a>
+      </li>
+      <li class="nav-item bg-item">
+        <a class="nav-link hvr-buzz-out" href="#"><i class="fa fa-smile-o" aria-hidden="true"></i> About</a>
+      </li>
+      <li class="nav-item bg-item">
+        <a class="nav-link hvr-buzz-out" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Contact</a>
+      </li> 
+      <li class="nav-item logo">
+        <a class="nav-linkt logo" href="#"></a>
+      </li> 
+    
+      
+    </ul>
     </div>
-    </header>
+</nav>
+ </div> 
+
+    <form class="form-inline my-2 my-lg-0 d-none d-sm-block">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-link my-2 my-sm-0" type="submit"><span class="search-item">Search</span> </button>
+    </form>              
+</div>
+</header>
 
 <section>
  <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="hover"  data-interval="10000" >
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/musse-o-helium.jpg" class="d-block w-100" alt="bild-1">
+      <img src="assets/images/maxresdefault.jpg" class="d-block w-100" alt="bild-1">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/maxresdefault.jpg" class="d-block w-100" alt="bild-2">
+      <img src="assets/images/musse-helium.jpg" class="d-block w-100" alt="bild-2">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/startsidan-bakgrund.jpg" class="d-block w-100" alt="bild-3">
+      <img src="assets/images/musse-o-helium.jpg" class="d-block w-100" alt="bild-3">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon d-none d-sm-block" aria-hidden="true"></span>
     <span class="visually-hidden  d-none d-sm-block">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
@@ -83,10 +76,10 @@
   </a>
 </div>
  </div>
+ <div id="bg-color-card">
  <div class="d-flex flex-column">
      <a href="#">
-   
-         <i class="fab fa-readme"></i><span class="book-menu"><h3>Books</h3></span>
+         <h3 class="book-menu"><i class="fa fa-book" aria-hidden="true"></i>Books</h3>
      </a>
     
  </div>
@@ -94,34 +87,41 @@
  <div class="row">
      <div class="col-md-4">
   
-  <div class="card">
+  <div class="card hvr-grow-shadow">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title uppercase">The Mystery of the Hole in the Wall</h5>
+    <h6 class="card-subtitle mb-2 text-unmuted uppercase">Maxi & Helium Part 1</h6>
+    <p class="card-text">Maxi and Helium are two little mice who live at Camilla’s. How they got there, nobody knows,
+         but strangely enough the mice can talk and Camilla understands them. One day, the mice find a hole in the wall that leads to 
+         another world – the Animal Kingdom.</p>
+    <a href="#" class="card-link">Book link</a>
+    <a href="#" class="card-link">Author link</a>
   </div>
 </div></div>
+<br>
  <div class="col-md-4">
   
-  <div class="card">
+  <div class="card hvr-grow-shadow">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title uppercase">The Hunt for the Golden Cheese</h5>
+    <h6 class="card-subtitle mb-2 text-unmuted uppercase">Maxi & Helium Part 2</h6>
+    <p class="card-text">Only the two little mice, Maxi and Helium, can save the Animal Kingdom and its inhabitants from the evil Hunter Doves. 
+        Everything depends on them finding the Golden Cheese.During the thrilling hunt for the cheese,
+         the mice encounter creatures both good and evil. Who they can trust isn’t always easy to know.</p>
+    <a href="#" class="card-link">Booklink</a>
+    <a href="#" class="card-link">Author link</a>
   </div>
 </div></div>
+<br>
 <div class="col-md-4">
-<div class="card">
+<div class="card hvr-grow-shadow">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title uppercase">The Adventure in Lindrizia</h5>
+    <h6 class="card-subtitle mb-2 text-unmuted uppercase">Maxi & Helium Part 3</h6>
+    <p class="card-text">Only the two little mice, Maxi and Helium, can save the Animal Kingdom and its inhabitants from the evil Hunter Doves. Everything depends on them finding the Golden Cheese. On the thrilling journey,
+         the mice encounter creatures both good and evil. Who they can trust isn’t always easy to know. </p>
+    <a href="#" class="card-link">Book link</a>
+    <a href="#" class="card-link">Author link</a>
   </div>
 </div>
 
@@ -129,39 +129,93 @@
 </div>
 
 </div>
+<br>
 
 <div class="d-flex justify-content-around">
 <div class="row">
     
     <div class="col-md-6">
   
-  <div class="card">
+  <div class="card hvr-grow-shadow">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title uppercase">In the claws of the Pigeon Hunters</h5>
+    <h6 class="card-subtitle mb-2 text-unmuted uppercase">Maxi & Helium Part 4</h6>
+    <p class="card-text">Together with the cat Sigge, the little mice Mickey and Helium are once again on their way into the Animal Kingdom to continue their vital mission - to find both the Golden Cheese and their parents.
+         With the help of Princess Frah's flying dogs, they hover over the snow-covered Lindrizia.</p>
+    <a href="#" class="card-link">Book link</a>
+    <a href="#" class="card-link">Author link</a>
   </div>
 </div></div>
- 
+ <br>
     <div class="col-md-6">
   
-  <div class="card">
+  <div class="card hvr-grow-shadow">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title uppercase">The last fight</h5>
+    <h6 class="card-subtitle mb-2 text-unmuted uppercase">Maxi & Helium Part 5</h6>
+    <p class="card-text">Mickey and Helium may be small, but they are brave as few.
+         Despite the fact that they are currently locked in a dark, damp basement in Duvjägarnästet, 
+         they refuse to give up. When the mice find out that the Pigeon Hunters intend to harm the cat Sigge if they refuse 
+         to help the Pigeon Hunters find the Golden Cheese, the mice must think and act quickly.
+        </p>
+    <a href="#" class="card-link">Booklink</a>
+    <a href="#" class="card-link">Author link</a>
   </div>
 </div></div>
 </div>
-
+</div>
 </div>
 </section>
 
-    <footer></footer>
+   <footer class="section footer-classic context-dark bg-image" style="background: #f57f17;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+                <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2020</span><span> </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h5>Contacts</h5>
+              <dl class="contact-list">
+                <dt>Address:</dt>
+                <dd>798 South Park Avenue, New York, USA</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">compagny@email.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>phones:</dt>
+                <dd><a href="tel:#">1.555.652.258</a> <span>or</span> <a href="tel:#">1.55.652.268</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Links</h5>
+              <ul class="nav-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>Instagram</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>Twitter</span></a></div>
+          <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>Youtube</span></a></div>
+        </div>
+      </footer>
+
+<!-- Credit to https://bootsnipp.com/snippets/2eMK5 -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
+

@@ -1,3 +1,11 @@
+/*---------------------------------------EXTERNAL RESOURCES LOADED INTO THIS FIDDLE:
+jquery-3.4.1.slim.js
+bootstrap.css
+popper.js
+bootstrap.js
+font-awesome.css
+Google-Font-------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
@@ -23,17 +31,46 @@ div {
     display: inline-block;
 }
 
+.sticky-header {
+  padding: 16px;
+ 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .sticky-header {
+  padding-top: 50px;
+}
+
+.head-title{
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
 .head-title h2{
     font-family: "Indie flower", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 4hw;
+    
+    
+    
     text-align: center;
     text-decoration: none;
     font-style: oblique;
     letter-spacing: 6px;
     color: #fafafa;
     display: inline-block;
+    clear: both;
+    position: relative;
+
 }
+
+
 
 
 .hvr-back-pulse:hover{
@@ -58,16 +95,17 @@ div {
     width: 100%;
     align-items: center;
     text-align: center;
+   min-height: 80px;
     
 }
 .bg-color-list{
     background-color: #795548 ;
     margin: 0;
     border: none;
-    height: 150px;
+   min-height: 80px;
     min-width: 100%;
     display: inline-block;
-    padding-top: 45px ;
+    padding-top: 25px ;
     
 }
 
@@ -83,21 +121,17 @@ div {
 
 .list-info{
     font-family: "Indie flower", sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 500;
     font-variant: normal;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    
     
 }
 
-.list-head a{
-    margin: 0;
-    padding: 0;
-    border-radius: 50%;
-    background-color:#6d4c41;
-   
+.rounded-pill {
+    font-size: 20px;
+    background-color: #a094b7 ;
 }
 
 .form-control{
@@ -117,8 +151,8 @@ div {
     margin: 0;
     border-radius: 50%;
     background-color:#6d4c41;
-    
-     border: none;
+    border: none;
+    font-size: 20px;
 }
 
 .search{
@@ -127,149 +161,86 @@ div {
     font-weight: 400;
     text-align: center;
     color: #fafafa;
+    padding-bottom: 5px;
 
 
 }
 
 
  
-/*--------------------------------------------------section-index*/
-
+/*--------------------------------------------------Home-section*/
 .carousel-inner{
-     display: block;
-     height: 600px;
-   align-items: center;
-   min-width: 100%;
-   position: relative;
-
+    min-width: 100%;
+    position: relative;
 }
 
 .carousel-item img{
-    display: block;
     min-width: 100%;
-    position: absolute;
-
+    max-height: 400px;
+    align-items: center;
+    display: block;  
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev span{
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+    color: #fafafa;
     font-style: italic;
-    text-transform: uppercase;
-    font-weight: 200;
-    color:#fafafa;
+}
+
+.carousel-control-next span{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 10px;
+    color: #fafafa;
+    font-style: italic;
     
 }
 
 
-/*-----------------------
-
-
-img{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 600px;
-    min-width: 100%;
-    margin: 0;
-    padding-bottom: 0px;
-    border: none;
-    padding-right: 0;
-    padding-left: 0;
-    clear: both;
-    position: relative;
-    opacity: 1;
-    align-items: center;
-   
+.flex-column {
+display: flex;
+align-content: center;
+height: 150px;
+width: 100%;
 }
 
-
-.col {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-    padding: 0;
-}
-
-.carousel-item {
-
-      transition: all .15s ease-in-out; 
-    -moz-transition: all .15s ease-in-out;
-    -webkik-transition: all .15s ease-in-out; 
-}
-
-.carousel-control-next {
-    right: 0;
-}
-
-.carousel-control-next, 
-.carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    opacity: .5;
-    transition: opacity .15s ease;
-}
-
- ::after, ::before {
-    box-sizing: border-box;
-}
-
-.carousel {
-    position: relative;
-    border: 0;
-}
-
-div {
-    display: block;
-    padding-bottom: 7px;
-    padding-top: 0px;
-    margin: 0;
-}
-----*/
-.book-menu{
-    color: #004d40; 
-    font-family: "Indie Flower", sans-serif;
-    font-size: 35px;
-    font-weight: 700;
+.flex-column a{
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    letter-spacing: 2px;
+}
+    
+.flex-column a h3{
+    text-align: center;
+    color: #fafafa;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    text-decoration: none;
     clear: both;
-    line-height: 35px;
+    text-shadow: 2px 2px #a094b7;
+}
+
+.flex-column a h3:hover{
+  color: #a094b7;
+  font-size: 30px;
+  
+}
+
 
  
-}
+
 
 div .book-menu a:hover {
     text-decoration: none;
     color: rgba(12, 82, 14, 0.63);
 }
 
-.flex-column a i{
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 3px;
-    color: rgba(12, 82, 14, 0.63);
-    display: block;
-    padding-top: 6px;
-    text-decoration: none;
 
-}
 
 .card-link{
     color: white;
@@ -328,12 +299,16 @@ div .book-menu a:hover {
 
 }
 .card-body{
-    background-color: #19634c;
+    background-color: #8b6b61;
     float: right;
     max-width: 400px;
     min-height: 400px;
-    border: 1px solid;   
-    padding-bottom: 5px;
+    border: none;   
+    padding: 15px;
+    overflow: hidden;
+    align-items: center;
+   box-shadow: 5px 5px;    
+
 }
 
 .card {
@@ -346,7 +321,8 @@ div .book-menu a:hover {
 }
 
 #bg-color-card{
-    background-color: #f9a825;
+    background-color: #5d4037;
+    padding: 20px 10px;
    
 }
 
@@ -357,25 +333,37 @@ div .book-menu a:hover {
 }
 
 /*--------------------------------------------------footer*/
-/*---------------------------------------EXTERNAL RESOURCES LOADED INTO THIS FIDDLE:
-jquery-3.4.1.slim.js
-bootstrap.css
-popper.js
-bootstrap.js
-font-awesome.css-------------------*/
+
 
 .bg-color-head {
     color: #fafafa;
-    background: #f57f17;
+    background: #a094b7;
     padding-top: 20px;
 }
+.footer-classic {
+    border: none;
+    margin: none;
+    min-height: 380px;
+    width: 100%;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    
+    
+}
 
+
+.footer-logo img{
+    padding-left: 0%;
+    left: 0;
+   
+}
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
     color: #fafafa;
 }
 
 .footer-classic a:hover{
-    color: #ac1900;
+    color: #3e2723;
 }
 .contact-list-item h5{
     margin: 0;
@@ -471,7 +459,7 @@ ul, ol {
     color: #fafafa;
 }
 .social-container .col {
-    border: 1px solid #19634c;
+    border: 1px solid #3e2723;
 }
 .nav-list li a:before {
     content: "\f14f";
@@ -486,4 +474,22 @@ ul, ol {
     transition: .22s ease;
 }
 
-/* Credit to https://bootsnipp.com/snippets/2eMK5 */
+/*------------------------------------------Books-section*/
+
+.container-books{
+    background-color: #d1c4e9;
+    position: relative;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+
+.first-book img {
+ float: left;
+ margin: auto;
+ padding: 10px auto 15px 0;
+ border: none;
+}

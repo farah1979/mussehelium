@@ -10,6 +10,16 @@ Google-Font-------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 /*----------------------------------------header*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+
 header {
     margin: 0;
 }
@@ -31,6 +41,10 @@ div {
     display: inline-block;
 }
 
+.bg-color-title a:hover{
+    color: rgba(0, 0, 255, .2);
+}
+
 .sticky-header {
   padding: 16px;
  
@@ -40,6 +54,7 @@ div {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .sticky + .sticky-header {
@@ -56,9 +71,6 @@ div {
     font-family: "Indie flower", sans-serif;
     font-weight: 700;
     font-size: 4hw;
-    
-    
-    
     text-align: center;
     text-decoration: none;
     font-style: oblique;
@@ -70,24 +82,11 @@ div {
 
 }
 
-
-
-
-.hvr-back-pulse:hover{
-    background-color: #795548;
+.head-title:hover{
+    background-color: #3e2723 ;
 }
 
-.hvr-back-pulse{
   
-  
-  animation-name: example;
-  animation-duration: 3s;
-}
-
-@keyframes hvr-back-pulse {
-  from {background-color: #3e2723;}
-  to {background-color: #795548;}
-}
 .list-list{
     margin: 0;
     padding-top:0;
@@ -117,6 +116,8 @@ div {
 
 .bg-color-cart{
     color: #fafafa;
+    padding: 10px;
+    margin-right: 0;
 }
 
 .list-info{
@@ -137,9 +138,9 @@ div {
 .form-control{
     font-size: 15px;
     align-items: center;
-    text-transform: uppercase;
+    text-transform: none;
     color: #212121;
-    background-color: #8d6e63;
+    
     width: 50%;
 
 }
@@ -148,11 +149,12 @@ div {
 
 
 .btn-link{
-    margin: 0;
-    border-radius: 50%;
-    background-color:#6d4c41;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color:#3e2723;
     border: none;
     font-size: 20px;
+    padding-top: 5px;
 }
 
 .search{
@@ -161,7 +163,8 @@ div {
     font-weight: 400;
     text-align: center;
     color: #fafafa;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
+    padding:0;
 
 
 }
@@ -180,6 +183,10 @@ div {
     align-items: center;
     display: block;  
 }
+.objectiv-fit{
+    object-fit: cover;
+}
+
 
 .carousel-control-prev span{
     font-family: "Roboto", sans-serif;
@@ -215,11 +222,11 @@ width: 100%;
     
 .flex-column a h3{
     text-align: center;
-    color: #fafafa;
+    color: #321911;
     font-family: "Indie Flower", sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-    padding-bottom: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
     text-decoration: none;
     clear: both;
     text-shadow: 2px 2px #a094b7;
@@ -321,8 +328,9 @@ div .book-menu a:hover {
 }
 
 #bg-color-card{
-    background-color: #5d4037;
+    background-color: #fafafa;
     padding: 20px 10px;
+    margin-right: 0;
    
 }
 
@@ -337,7 +345,7 @@ div .book-menu a:hover {
 
 .bg-color-head {
     color: #fafafa;
-    background: #a094b7;
+    background: #3e2723;
     padding-top: 20px;
 }
 .footer-classic {
@@ -363,7 +371,7 @@ div .book-menu a:hover {
 }
 
 .footer-classic a:hover{
-    color: #3e2723;
+    color: white;
 }
 .contact-list-item h5{
     margin: 0;
@@ -459,7 +467,7 @@ ul, ol {
     color: #fafafa;
 }
 .social-container .col {
-    border: 1px solid #3e2723;
+    border: 1px solid #1b0000;
 }
 .nav-list li a:before {
     content: "\f14f";
@@ -475,21 +483,239 @@ ul, ol {
 }
 
 /*------------------------------------------Books-section*/
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
 
-.container-books{
-    background-color: #d1c4e9;
+#books-container{
     position: relative;
+    background-color:#fafafa;
+    width: 100%;
+   min-height: 400px;
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    left: 0;
-    right: 0;
+    padding: 0;
+    clear: both;
+   
 }
 
 
-.first-book img {
- float: left;
- margin: auto;
- padding: 10px auto 15px 0;
- border: none;
+.read-import{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000063;
+    padding: 10px 15px;
+    text-shadow: 2px 2px  rgba(0, 0, 255, .2) ;
 }
+
+.read-para{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    float: right;
+    text-transform: capitalize;
+    color: #212121;
+    letter-spacing: 2px;
+    padding: 5px 5px;
+    line-height: 20px;
+
+    
+}
+
+.read-more{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1a237e;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    text-transform: uppercase;
+
+}
+
+.read-more a:hover{
+    text-decoration: none;
+
+
+}
+
+.book-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  margin:0;
+ 
+}
+
+/* Create four equal columns that sits next to each other */
+.book-column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  column-gap: 2px;
+}
+
+.book-column img {
+  margin-top: 20px;
+  
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1199.98px) {
+  .book-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .book-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*---------------------------------------------------------Book-One-Page*/
+
+.tb-book-one-img{
+   padding: 25px;
+  
+  transition: transform .2s; /* Animation */
+  
+  margin: 0 auto;
+  opacity:1;
+
+}
+
+.book-hov img:hover{
+    -ms-transform: skewX(5deg); 
+  transform: skewX(5deg); 
+
+}
+
+.td-book{
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1b0000;
+}
+
+.about-link:hover{
+
+    text-decoration: none;
+
+}
+
+.td-title{
+    padding-top: 2px;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5d4037;
+
+}
+
+.td-title-one{
+    padding-top: 1px;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5d4037;
+
+}
+.book-one-detail{
+    padding-top: 5px;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform:none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.td-notice{
+    display: block;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+
+.tb-book-one-img{
+    border: none;
+    padding: 0;
+    margin: 20px 30px;
+}
+
+
+
+.bg-retile-book{
+    background-color: #795548;
+    min-height: 350px;
+    width: 75%;
+    margin-bottom: 20px;
+    margin-top: 35px;
+   
+
+
+}
+
+.bg-retile-book h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fafafa;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    
+}
+
+.img-book{
+     display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 3px;
+
+}
+
+

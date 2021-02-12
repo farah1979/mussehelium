@@ -718,4 +718,161 @@ ul, ol {
 
 }
 
+/*-----------------------------------------------------------Author-page*/
 
+.Author-cover{
+    width: 100%;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;   
+    
+}
+
+.author-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-top: 30px;
+   
+
+}
+ 
+.author-center-list{
+    min-width: 50%;
+    min-height: 50%;
+   
+    
+}
+
+.author-bio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #321911;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0%;
+    
+}
+
+.bio-bio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+}
+
+.author-center-list li p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #000;
+    margin: 0;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.author-public {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #321911;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0%;
+}
+
+
+
+
+.author-public-list li{
+    list-style: upper-roman;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    
+}
+/*---------------------
+.author-img {
+    
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0%;
+    padding: 0%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-group-flush{
+    margin:0;
+    border: none;
+    padding:0;
+    
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.list-group-flush li {
+    
+    margin: 0px;
+    border: none;
+    padding-left: 15px;
+    align-content: center;
+    padding-right: 15px;
+    overflow: hidden;
+    
+
+}
+
+.author-bio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #321911;
+    
+}
+
+.bio-bio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.list-group-item p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #000;
+    padding-left: 5px;
+
+}
+
+
+-------------*/

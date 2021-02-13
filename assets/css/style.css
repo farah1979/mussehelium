@@ -9,19 +9,20 @@ Google-Font-------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-/*----------------------------------------header*/
+/*----------------------------------------Home-Page-Header*/
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  
+  width: 100%;
 }
 
 
 header {
     margin: 0;
+    width: 100%;
 }
 
 div {
@@ -36,9 +37,10 @@ div {
     padding-top: 20px;
     margin: 0;
     padding-bottom: 0;
-    height: auto;
-    min-width: 100%;
+    min-height: 100px;
+    width: 100%;
     display: inline-block;
+    
 }
 
 .bg-color-title a:hover{
@@ -65,6 +67,8 @@ div {
     margin: 0;
     padding: 0;
     border: none;
+   text-align: center;
+   display: block;
     
 }
 .head-title h2{
@@ -114,8 +118,31 @@ div {
     margin:0;
 }
 
-.bg-color-cart{
+.dropdown-menu{
+    background-color: #795548;
+    overflow: hidden;
+    
+}
+
+.dropdown-item {
     color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0%;
+    padding: 12px;
+
+}
+
+#navbarDropdownMenuLink {
+    color: #321911;
+    
+}
+
+
+.bg-color-cart{
+    color: #3e2723;
     padding: 10px;
     margin-right: 0;
 }
@@ -132,7 +159,7 @@ div {
 
 .rounded-pill {
     font-size: 20px;
-    background-color: #a094b7 ;
+    background-color: #f9fbe7 ;
 }
 
 .form-control{
@@ -171,7 +198,7 @@ div {
 
 
  
-/*--------------------------------------------------Home-section*/
+/*--------------------------------------------------Home-Page-section*/
 .carousel-inner{
     min-width: 100%;
     position: relative;
@@ -183,9 +210,7 @@ div {
     align-items: center;
     display: block;  
 }
-.objectiv-fit{
-    object-fit: cover;
-}
+
 
 
 .carousel-control-prev span{
@@ -482,26 +507,7 @@ ul, ol {
     transition: .22s ease;
 }
 
-/*------------------------------------------Books-section*/
-.container-fluid {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-#books-container{
-    position: relative;
-    background-color:#fafafa;
-    width: 100%;
-   min-height: 400px;
-    margin: 0;
-    padding: 0;
-    clear: both;
-   
-}
-
+/*------------------------------------------Books-Page-section*/
 
 .read-import{
     font-family: "Roboto", sans-serif;
@@ -509,21 +515,23 @@ ul, ol {
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-    color: #000063;
-    padding: 10px 15px;
-    text-shadow: 2px 2px  rgba(0, 0, 255, .2) ;
+    color: #5d4037;
+    margin: 0%;
+    padding-top: 5%;
+    
 }
 
 .read-para{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
-    float: right;
     text-transform: capitalize;
     color: #212121;
     letter-spacing: 2px;
-    padding: 5px 5px;
-    line-height: 20px;
+    padding: 5px 10px;
+    line-height: 25px;
+    margin: 0%;
+    overflow: hidden;
 
     
 }
@@ -546,12 +554,36 @@ ul, ol {
 
 }
 
+.press {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 10%;
+    text-transform: uppercase;
+    color: #321911
+}
+.press-title{
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 2%;
+    text-transform: capitalize;
+
+}
+
 .book-row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding-bottom: 10px;
+  padding-top:15px;
   margin:0;
  
 }
@@ -566,9 +598,9 @@ ul, ol {
 }
 
 .book-column img {
-  margin-top: 20px;
+  margin: 30px;
   
-  width: 100%;
+  width: 70%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -589,14 +621,12 @@ ul, ol {
   }
 }
 
-/*---------------------------------------------------------Book-One-Page*/
+/*---------------------------------------------------------Book-Pages*/
 
 .tb-book-one-img{
    padding: 25px;
-  
   transition: transform .2s; /* Animation */
-  
-  margin: 0 auto;
+  margin: 0 0;
   opacity:1;
 
 }
@@ -611,10 +641,10 @@ ul, ol {
     padding-left: 10px;
     padding-right: 15px;
     padding-bottom: 3px;
-    padding-top: 10px;
+    padding-top: 20px;
     margin:0;
     font-family: "Roboto",sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-align: justify;
     letter-spacing: 2px;
@@ -644,7 +674,7 @@ ul, ol {
 }
 
 .td-title-one{
-    padding-top: 1px;
+    padding-top: 5px;
     margin:0;
     font-family: "Roboto",sans-serif;
     font-size: 15px;
@@ -653,7 +683,7 @@ ul, ol {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     color: #5d4037;
 
 }
@@ -668,54 +698,41 @@ ul, ol {
     line-height: 25px;
     text-transform:none;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .td-notice{
     display: block;
-    padding-top: 5px;
     font-weight: bold;
-    padding-left: 5px;
 }
 
 
-.tb-book-one-img{
-    border: none;
-    padding: 0;
-    margin: 20px 30px;
-}
-
-
-
-.bg-retile-book{
-    background-color: #795548;
-    min-height: 350px;
-    width: 75%;
+.new-bord {
+    margin-top: 5%;
     margin-bottom: 20px;
-    margin-top: 35px;
-   
+        border: 5px solid #3e2723;
+  border-radius: 5px;
+  
+ }
 
+ 
 
-}
-
-.bg-retile-book h3{
+.retile-book-title{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    color: #fafafa;
-    letter-spacing: 2px;
-    padding-top: 5px;
-    
+    color: #3e2723;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 15px;
+    padding-top: 5%;
 }
 
-.img-book{
-     display: inline-block;
-    align-items: center;
-    justify-content: center;
+.bg-retile-book img {
+    margin-left: 30px;
+    opacity: 1;
+    margin-top: 5px;
     margin-bottom: 10px;
-    padding-left: 35px;
-    padding-right: 3px;
-
 }
 
 /*-----------------------------------------------------------Author-page*/
@@ -761,7 +778,7 @@ ul, ol {
 
 .bio-bio{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     letter-spacing: 2px;
     color: rgba(0, 0, 0, 0.3);
@@ -771,14 +788,15 @@ ul, ol {
 .author-center-list li p{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 23px;
     color: #000;
     margin: 0;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    overflow: hidden;
 
 }
 
@@ -802,77 +820,34 @@ ul, ol {
     list-style: upper-roman;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 1px;
-    
-}
-/*---------------------
-.author-img {
-    
-    width: 100%;
-    max-height: 500px;
-    object-fit: contain;
-    margin: 0%;
-    padding: 0%;
-     display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.list-group-flush{
-    margin:0;
-    border: none;
-    padding:0;
-    
-   display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-    
-.list-group-flush li {
-    
-    margin: 0px;
-    border: none;
-    padding-left: 15px;
-    align-content: center;
-    padding-right: 15px;
-    overflow: hidden;
-    
-
-}
-
-.author-bio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 2px;
-    color: #321911;
-    
-}
-
-.bio-bio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
     font-weight: 300;
-    text-align: center;
-    letter-spacing: 2px;
-    color: rgba(0, 0, 0, 0.3);
-}
-
-.list-group-item p{
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 2px;
     line-height: 20px;
-    color: #000;
-    padding-left: 5px;
+    letter-spacing: 2px;
+    
+}
 
+/*---------------------------------------------------------Contact-Page*/
+
+.bg-color-contact{
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+    margin: 0;
+    opacity: 1;
 }
 
 
--------------*/
+.bg-contact {
+    background-color: transparent;
+    min-height: 200px;
+    min-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}

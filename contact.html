@@ -21,7 +21,7 @@
   <nav class="navbar navbar-light bg-color-title" >
   <div class="container sticky-header" style="max-height: 300px; min-width: 100%;">
     <a class="navbar-brand hvr-pulse-shrink helium-brand" href="index.html"><img src="assets/images/Helium-ensam.png" alt="helium-foto" width="50" height="50"></a>
-    <a href="index.html" class="head-title "><h2><span>Maxi & Helium</span></h2></a>
+    <a href="index.html" class="head-title hvr-back-pulse"><h2><span>Maxi & Helium</span></h2></a>
     <a class="navbar-brand hvr-pulse-shrink musse-brand" href="index.html" ><img src="assets/images/Musse-ensam.png" alt="musse-foto" width="50" height="50"></a>
 
   </div>
@@ -34,13 +34,12 @@
 <nav class="navbar navbar-light bg-color-list">
   <div class="container-fluid list-head ">
     <a href="index.html" class="navbar-brand list-info hvr-float-shadow"><span class="bg-color-cart badge rounded-pill "><i class="fa fa-home" aria-hidden="true"></i> Home</span></a>
-<ul>
+    <ul>
     <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle list-info hvr-float-shadow" href="book.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            <span class="bg-color-cart badge rounded-pill "><i class="fa fa-book" aria-hidden="true"></i> Books </span>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="book.html">Books</a></li>
             <li><a class="dropdown-item" href="book-one.html">Maxi-Helium First Book</a></li>
             <li><a class="dropdown-item" href="book-two.html">Maxi-Helium Second Book</a></li>
             <li><a class="dropdown-item" href="book-three.html">Maxi-Helium Third Book</a></li>
@@ -52,7 +51,7 @@
           </ul>
         </li>
 </ul>
-    <a href="about.html" class="navbar-brand list-info hvr-float-shadow"><span class="bg-color-cart badge rounded-pill"><i class="fa fa-smile-o" aria-hidden="true"></i> Author</span></a>
+    <a href="about.html" class="navbar-brand list-info hvr-float-shadow"><span class="bg-color-cart badge rounded-pill"><i class="fa fa-smile-o" aria-hidden="true"></i> About</span></a>
     <a href="contact.html" class="navbar-brand list-info hvr-float-shadow"><span class="bg-color-cart badge rounded-pill"><i class="fa fa-user-o" aria-hidden="true"></i> Contact</span></a>
     
     
@@ -67,54 +66,67 @@
 
 </header>
 
-<section>
-<div class="container">
-    <div class="row row-30">
-        <div class="col-md-3 order-1 book-hov">
-            <img src="assets/images/book-2.jpg" alt="Maxi-Helium-Book-2" class="tb-book-one-img">
+<section class="container-fluid bg-color-contact">
+<div class="container bg-contact">
 
-
-        </div>
- 
-    <div class="col-md-9 order-2">
-
-      <a href="about.html" class="about-link"><h1 class="td-book">Camilla Brick</h1></a>
-        <h3 class="td-title">Maxi And Helium 2</h3>
-        <h4 class="td-title-one">The Hunt For the Golden Cheese</h4>
-        <p class="book-one-detail"><span class="td-notice"><em>A book for the whole family! Mainly aimed at children between 6 and 10 years, 
-                            but is also excellent as a reading book for children from 4 years. Are you ready?</em></span>
-                            Only the two little mice Mickey and Helium can save the Animal Kingdom and its inhabitants from the evil 
-                            Pigeon Hunters. It all depends on them finding the Golden Cheese. In the exciting hunt, the mice meet both good 
-                            and evil creatures. Who they can trust is not easy to know. It turns out that their friends Ta-Ta and Aunt 
-                            Gamelina have not told the whole truth about the Animal Kingdom.The secrets and surprises are many. 
-                            Mysterious things happen that cannot be explained - invisible bridges appear, creatures go up in smoke and 
-                            stumps seem to be able to talk. It will not be a calm start to the adventure for our little friends. But most 
-                            important of all ... now they're on their way. Come along!</p>
-
-    
-
+    <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
     </div>
-    </div>
-    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
 
-<hr class="new-bord">
-<h3 class="retile-book-title">MORE TITLES BY THE SAME AUTHOR</h3>
-<div class="bg-retile-book">
-    
-    <img src="assets/images/book-1.jpg"  alt="musse-helium-1"  >
-    <img src="assets/images/book-3-a.png"   alt="musse-helium-3"  >
-    <img src="assets/images/book-4.jpg" alt="musse-helium-4">
-    <img src="assets/images/book-5-b.jpg" alt="musse-helium-5">
-    <img src="assets/images/paint-1.jpg" alt="paint-book" >
-    <img src="assets/images/pyssel.jpg" alt="pyssel.book"  >
+
 
 
 
 </div>
 
-</section>
-<!--------------------------------------------------Footer-->
 
+
+
+
+
+
+</section>
    <footer class="section footer-classic bg-color-head ">
         <div class="container">
           <div class="row row-30">

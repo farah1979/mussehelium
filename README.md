@@ -31,7 +31,7 @@ try to solve and discuss them with your family and brothers, and always be stron
 
 # Scope
 This is my first project and its goal is to learn and creating a responsive website, that is mobile first.
-As for my project,I built a website that contains seven different pages and used many languages and technologies in it, which I will release later.
+As for my project,I built a website that contains eleven different pages and used many languages and technologies in it, which I will release later.
 The project is based on four main pages, which are the Home page, Book page, Author page, and finally Contact page which Allow us to communicate with our readers or visitors.
 I have tested my project through the responsivedesign and this was the result
 
@@ -179,6 +179,7 @@ My project was deployed to GitHub Pages using the following steps:
 
 6- Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+7- This is my website link (https://farah1979.github.io/mussehelium/)
 
 [Back to Table of contents](#table-of-contents)
 

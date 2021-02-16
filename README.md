@@ -14,19 +14,16 @@
 # General Info
 ## Project Introduction
 ### The purpose and goals of building the project idea
+- The purpose of my small project is to clarify one of the problems that may affect any child at this time, and this problem is dyslexia.
+- The first goal is to reach, touch, and embrace each child through reading. Reading is the best way to communicate with children.
+- The second goal is to give a vivid and tangible example of the famous writer Camilla Narng, who was able to become a writer of fictional 
+stories for children and communicate with them through her books despite the dyslexia that she suffered from when his child 
+was in school, but she is one of the many famous characters who was able To prove that with will and challenge it is possible 
+to reach the highest positions.
 
--                The purpose of my small project is to clarify one of the problems that may affect any child at this time, and this problem is dyslexia.
-
--                The first goal is to reach, touch, and embrace each child through reading. Reading is the best way to communicate with children.
-
--                The second goal is to give a vivid and tangible example of the famous writer Camilla Narng, who was able to become a writer of fictional 
-                 stories for children and communicate with them through her books despite the dyslexia that she suffered from when his child 
-                 was in school, but she is one of the many famous characters who was able To prove that with will and challenge it is possible 
-                 to reach the highest positions.
-
--                The third goal of building the Maxi and Helium Project was that I wanted to communicate with each child and try to help them. 
-                 As these two mice wanted to deliver a message to the children, which is that no matter what difficulties and problems you face, 
-                 try to solve and discuss them with your family and brothers, and always be stronger, so life is worth fighting and struggling.
+- The third goal of building the Maxi and Helium Project was that I wanted to communicate with each child and try to help them. 
+As these two mice wanted to deliver a message to the children, which is that no matter what difficulties and problems you face, 
+try to solve and discuss them with your family and brothers, and always be stronger, so life is worth fighting and struggling.
 <br>
 <br>
 
@@ -46,20 +43,17 @@ I have tested my project through the responsivedesign and this was the result
 [Back to Table of contents](#table-of-contents)
 
 # UserExperience 
-
-  ## User stories
-
-       - First-time visitor goals
-          1. Building an integrated and simple website for easy navigate between its sections, which suits children, as the content is suitable for young age groups between 3 and 12 years old.
-          2. As a first time visitor, I would like to see a meaningful and useful site, to which parents and children would love to return.
+## User stories
+-  First-time visitor goals
+    1. Building an integrated and simple website for easy navigate between its sections, which suits children, as the content is suitable for young age groups between 3 and 12 years old.
+    2. As a first time visitor, I would like to see a meaningful and useful site, to which parents and children would love to return.
     
-       - Returning Visitor Goals
-          1. The user will come back several times to benefit from the targeted educational content.
-          2. To register for our newsletter to stay informed of any current new changes.
-          3. The user can make any comments that the owner can use to update the existing data or add new data that the reader can benefit from it.
+- Returning Visitor Goals
+    1. The user will come back several times to benefit from the targeted educational content.
+    2. To register for our newsletter to stay informed of any current new changes.
+    3. The user can make any comments that the owner can use to update the existing data or add new data that the reader can benefit from it.
 
-  ## Design
-
+## Design
 ### Colour Scheme
  - I used a group of colors between brown to beige, derived from nature, earth, and trees /nature's colors suggest psychological 
 comfort for the visitor, which makes him want to come constantly.
@@ -95,7 +89,6 @@ Mobile Wireframe - <img src="assets/images/wireframe-mobile.png">
 [Back to Table of contents](#table-of-contents)
 
 # Technologies
-
 ## Languages Used
  - HTML5
  - CSS3
@@ -170,7 +163,6 @@ There were no syntax errors in the project. It has been designed to suit differe
 [Back to Table of contents](#table-of-contents)
 
 # Deployment
-
 ## GitHub Pages
 
 My project was deployed to GitHub Pages using the following steps:
@@ -191,7 +183,6 @@ My project was deployed to GitHub Pages using the following steps:
 [Back to Table of contents](#table-of-contents)
 
 # Credits
-
 ## Code
 
 - [Bootstrap 4.2.1](https://getbootstrap.com/)
@@ -231,7 +222,6 @@ All feedback welcomed.
 
 
 ## Acknowledgements
-
 ### I thank my mentor Akshat Garg, for all the directions.
 
 [Back to Table of contents](#table-of-contents)

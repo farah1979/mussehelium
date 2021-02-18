@@ -44,7 +44,7 @@ I have tested my project through the responsivedesign and this was the result
 
 [Back to Table of contents](#table-of-contents)
 
-# UserExperience 
+# User Experience 
 ## User stories
 -  First-time visitor goals
    1. Building an integrated and simple website for easy navigate between its sections, which suits children, as the content is suitable for young age groups between 3 and 12 years old.
@@ -77,7 +77,7 @@ so it is attractive and appropriate.
 ### Imagery
 Imagery is important. All the images were obtained by Google Researcher, which is for the Maxi and Helium story books, 
 which are present on all pages of the project and for the home page I used A slideshow component for cycling through elements—images by using Bootstrap 4 and the idea was the developer idea by getting help from the example bellow code,
-and I used this website [Unspalsh.com](www.unsplash.com) and chosen a background Image for my Contact page.
+and I used this website [Unsplash.com](www.unsplash.com) and chosen a background Image for my Contact page.
 
                       div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="hover"  data-interval="10000" 
 

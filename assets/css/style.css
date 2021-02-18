@@ -35,7 +35,7 @@ div {
     padding-top: 20px;
     margin: 0;
     padding-bottom: 0;
-    min-height: 100px;
+   
     width: 100%;
 }
 
@@ -92,6 +92,8 @@ div {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .list-list {
@@ -101,13 +103,13 @@ div {
     width: 100%;
     align-items: center;
     text-align: center;
-    min-height: 80px;
+   
 }
 .bg-color-list {
     background-color: #795548;
     margin: 0;
     border: none;
-    min-height: 80px;
+   
     min-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +117,8 @@ div {
     justify-content: space-between;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 25px;
+   
+    
 }
 
 .dropdown-menu {
@@ -133,14 +136,30 @@ div {
     padding: 12px;
 }
 
+.dropdown-toggle::after {
+    display: inline-block;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparen
+}
+
 #navbarDropdownMenuLink {
     color: #321911;
+    background-color: #f9fbe7;
+}
+
+.list-head span{
+    background-color: #f9fbe7;
 }
 
 .bg-color-cart {
     color: #3e2723;
     padding: 0px;
     margin: 0px;
+    
 }
 
 .list-info {
@@ -150,10 +169,11 @@ div {
     font-variant: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: white;
+    background-color: #f9fbe7;
     border-radius: 40px;
-    padding: 0;
+    padding: 0 8px;
     margin: 10px;
+    
 }
 
 .rounded-pill {
@@ -222,7 +242,7 @@ div {
 .flex-column {
     display: flex;
     align-content: center;
-    height: 150px;
+    margin: 2rem 0;
     width: 100%;
 }
 
@@ -250,6 +270,7 @@ div {
 
 .book-menu {
     text-align: center;
+    font-size: 2.5rem;
 }
 
 div .book-menu a:hover {
@@ -335,6 +356,12 @@ div .book-menu a:hover {
     padding-top: 30px;
 }
 
+.fa-book-feature{
+    margin-right: 20px;
+}
+
+
+
 .bg-color-head {
     color: #fafafa;
     background: #3e2723;
@@ -343,16 +370,21 @@ div .book-menu a:hover {
 .footer-classic {
     border: none;
     margin: 0;
-    min-height: 380px;
     width: 100%;
     position: relative;
     padding-right: 0;
     padding-left: 0;
 }
 
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
 .footer-logo img {
     padding-left: 0%;
     left: 0;
+    
 }
 .footer-classic a,
 .footer-classic a:focus,
@@ -451,7 +483,7 @@ ol {
 }
 
 .social-container .col {
-    border: 1px solid #1b0000;
+    border: 1px solid #fcb723;
     width: 100%;
 }
 .nav-list li a:before {
@@ -755,7 +787,7 @@ ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: 20px;
+    margin: 0;
     min-height: 400px;
     opacity: 1;
 }
@@ -777,6 +809,7 @@ ol {
     flex-wrap: wrap;
     padding: 0;
     margin-right: 15px;
+    justify-content: center;
 }
 
 .name-label {

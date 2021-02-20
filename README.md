@@ -4,7 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Scope](#scope)
-* [UserExperience](#userexperience)
+* [User Experience](#user-experience)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Testing](#testing)
